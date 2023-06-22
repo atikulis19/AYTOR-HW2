@@ -259,6 +259,40 @@ ol,ul{
 }
 /* Common Css End */
 
+/* Header Top Section Start */
+#headerTop{
+    background: var(--primaryColor3);
+    padding: 11px 0;
+    color: var(--commonColor);
+    font-size: 16px;
+    font-family: var(--secondaryFont);
+}
+#headerTop .headerTopleft span{
+    font-family: var(--primaryFont);
+    color: var(--PrimayColor2);
+}
+#headerTop .headerTopright .headerTopRightContent ul li{
+    padding: 0 20px;
+    border-right: 1px solid #8C8C8C;
+}
+#headerTop .headerTopright .headerTopRightContent ul li a{
+    color: var(--commonColor);
+    transition: 0.5s;
+}
+#headerTop .headerTopright .headerTopRightContent ul li a:hover{
+    color: var(--PrimayColor2);
+}
+#headerTop .headerTopright .headerTopRightContent ul li:last-child{
+    border: none;
+}
+#headerTop .headerTopright .headerTopRightContent ul li .hTSocialIcon a{
+    margin-right: 10px;
+}
+
+
+
+/* Header Top Section End */
+
 /* Navbar Section Start */
 #navbar{
     padding: 0;
